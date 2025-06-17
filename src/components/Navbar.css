@@ -5,7 +5,7 @@
   border-bottom: 1px solid #eee;
 }
 
-/* Top strip */
+
 .navbar-top-bar {
   background-color: #000;
   color: red;
@@ -15,7 +15,7 @@
   font-size: 11px;
 }
 
-/* Main nav */
+
 .navbar-main {
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@
   flex-wrap: wrap;
 }
 
-/* Logo and title */
+
 .navbar-logo-group {
   display: flex;
   align-items: center;
@@ -42,7 +42,6 @@
   margin: 0;
 }
 
-/* Links */
 .navbar-links {
   display: flex;
   gap: 25px;
@@ -50,7 +49,6 @@
   font-size: 14px;
 }
 
-/* Right side icons */
 .navbar-icons {
   display: flex;
   gap: 18px;
@@ -60,4 +58,12 @@
 
 .navbar-lang {
   font-size: 13px;
+}
+.navbar-main-content {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
