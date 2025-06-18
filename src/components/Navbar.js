@@ -1,4 +1,6 @@
+
 import './Navbar.css'
+
 
 const Navbar = () => {
   return (
@@ -13,11 +15,7 @@ const Navbar = () => {
 
         <div className="navbar-main">
           <div className="navbar-logo-group">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Example_image.svg/640px-Example_image.svg.png"
-              alt="logo"
-              className="navbar-logo"
-            />
+             <img src="https://www.shutterstock.com/image-vector/lorem-ipsum-logo-design-consept-260nw-1456986776.jpg" className="image" alt="NavbarImage"/>
             <h1 className="navbar-title">LOGO</h1>
           </div>
 
